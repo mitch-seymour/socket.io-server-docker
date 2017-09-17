@@ -1,0 +1,30 @@
+{
+  "name": "socket.io-server-redis",
+  "version": "0.1.0",
+  "description": "A socket.io server with a redis backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitch-seymour/socket.io-server-redis.git"
+  },
+  "keywords": [
+    "socket.io",
+    "redis",
+    "ioredis",
+    "websockets"
+  ],
+  "author": "Mitch Seymour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitch-seymour/socket.io-server-redis/issues"
+  },
+  "homepage": "https://github.com/mitch-seymour/socket.io-server-redis#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "ioredis": "^3.1.4",
+    "socket.io": "^2.0.3"
+  }
+}
